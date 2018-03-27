@@ -1,35 +1,35 @@
 {
-    "files.defaultLanguage": "cpp", // ctrl+N新建文件后默认的语言
-    "code-runner.runInTerminal": true, // 设置成false会在“输出”中输出，无法交互
-    "code-runner.executorMap": {
-        "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt.exe -Wall -g -Og -static-libgcc -std=c++1z && $dir$fileNameWithoutExt"
-    },
-    "code-runner.saveFileBeforeRun": true,
-    "C_Cpp.clang_format_sortIncludes": true,
-    "C_Cpp.errorSquiggles": "Disabled",
-    "files.encoding": "gbk",
-    "files.associations": {
-        "*.tcc": "cpp",
-        "cctype": "cpp",
-        "clocale": "cpp",
-        "cstdint": "cpp",
-        "cstdio": "cpp",
-        "cstdlib": "cpp",
-        "cwchar": "cpp",
-        "cwctype": "cpp",
-        "exception": "cpp",
-        "initializer_list": "cpp",
-        "iosfwd": "cpp",
-        "iostream": "cpp",
-        "istream": "cpp",
-        "limits": "cpp",
-        "new": "cpp",
-        "ostream": "cpp",
-        "stdexcept": "cpp",
-        "streambuf": "cpp",
-        "system_error": "cpp",
-        "type_traits": "cpp",
-        "typeinfo": "cpp",
-        "string": "cpp"
-    }
+  "files.defaultLanguage": "cpp", // ctrl+N新建文件后默认的语言
+  "code-runner.runInTerminal": true, // 设置成false会在“输出”中输出，无法交互
+  "code-runner.executorMap": {
+      "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt.out -Wall -g -Og -std=c++1z && $dir$fileNameWithoutExt.out"
+  },
+  "code-runner.saveFileBeforeRun": true,
+  "C_Cpp.clang_format_sortIncludes": true,
+  "C_Cpp.errorSquiggles": "Disabled",
+  "files.encoding": "gbk",
+  "files.associations": {
+      "*.tcc": "cpp",
+      "cctype": "cpp",
+      "clocale": "cpp",
+      "cstdint": "cpp",
+      "cstdio": "cpp",
+      "cstdlib": "cpp",
+      "cwchar": "cpp",
+      "cwctype": "cpp",
+      "exception": "cpp",
+      "initializer_list": "cpp",
+      "iosfwd": "cpp",
+      "iostream": "cpp",
+      "istream": "cpp",
+      "limits": "cpp",
+      "new": "cpp",
+      "ostream": "cpp",
+      "stdexcept": "cpp",
+      "streambuf": "cpp",
+      "system_error": "cpp",
+      "type_traits": "cpp",
+      "typeinfo": "cpp",
+      "string": "cpp"
+  }
 }
